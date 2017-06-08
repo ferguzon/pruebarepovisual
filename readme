@@ -1,9 +1,10 @@
-Versi�n 0.2:
+Versión 0.2:
 
-Se agrega timer para borrado autom�tico de etiqueta
+Se agrega timer para borrado automático de etiqueta, de forma que luego de presionar el botón
+el mensaje se muestra por solo dos segundos y luego se borra.
 
-Versi�n 0.1:
+Versión 0.1:
 
 Este es un archivo de lectura
 
-Se a�ade texto de prueba
+Se añade texto de prueba
