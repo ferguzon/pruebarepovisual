@@ -7,10 +7,17 @@ using System.Web.UI.WebControls;
 
 namespace proyectopruebarepovisual
 {
-    public partial class wfUsuarioInsertar : System.Web.UI.MasterPage
+    public partial class wfLeer : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+
+        }
+
+        protected void btnMostrar_Click(object sender, EventArgs e)
+        {
+
+            lblMostrar.Text = "Este es un mensaje de prueba";
 
         }
     }
