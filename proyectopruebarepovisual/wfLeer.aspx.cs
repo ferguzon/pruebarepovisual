@@ -18,7 +18,14 @@ namespace proyectopruebarepovisual
         {
 
             lblMostrar.Text = "Este es un mensaje de prueba";
+            timer.Enabled = true;
+        }
 
+        protected void Timer1_Tick(object sender, EventArgs e)
+        {
+
+            lblMostrar.Text = string.Empty;
+            timer.Enabled = false;
         }
     }
 }

@@ -11,7 +11,10 @@
         </tr>
         <tr>
             <td style="width: 604px">&nbsp;</td>
-            <td>&nbsp;</td>
+            <td>
+                <asp:Timer ID="timer" runat="server" Enabled="False" Interval="2000" OnTick="Timer1_Tick">
+                </asp:Timer>
+            </td>
         </tr>
     </table>
 </asp:Content>
