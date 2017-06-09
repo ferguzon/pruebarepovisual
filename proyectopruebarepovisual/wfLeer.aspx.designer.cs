@@ -31,6 +31,24 @@ namespace proyectopruebarepovisual {
         protected global::System.Web.UI.WebControls.Label lblMostrar;
         
         /// <summary>
+        /// btnMetodo control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnMetodo;
+        
+        /// <summary>
+        /// lblMetodo control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblMetodo;
+        
+        /// <summary>
         /// timer control.
         /// </summary>
         /// <remarks>

@@ -17,7 +17,7 @@ namespace proyectopruebarepovisual
         protected void btnMostrar_Click(object sender, EventArgs e)
         {
 
-            lblMostrar.Text = "Este es un mensaje de prueba";
+            lblMostrar.Text = "Este es un mensaje de prueba en la etiqueta";
             timer.Enabled = true;
         }
 
@@ -26,6 +26,15 @@ namespace proyectopruebarepovisual
 
             lblMostrar.Text = string.Empty;
             timer.Enabled = false;
+        }
+
+        protected void btnMetodo_Click(object sender, EventArgs e)
+        {
+
+            usuarioDatos dc = new usuarioDatos();
+
+            lblMetodo.Text = dc.publicarMensaje();
+
         }
     }
 }
