@@ -11,7 +11,7 @@ namespace proyectopruebarepovisual
         public string publicarMensaje()
         {
 
-            return "Este es un mensaje de prueba de la maquina de neo scofield";
+            return "Este es un mensaje de prueba de la maquina de neo scofield2";
 
         }
 
