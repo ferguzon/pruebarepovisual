@@ -17,7 +17,7 @@ namespace proyectopruebarepovisual
         protected void btnMostrar_Click(object sender, EventArgs e)
         {
 
-            lblMostrar.Text = "Este es un mensaje de prueba en la etiqueta de neo scofield";
+            lblMostrar.Text = "Este es un mensaje de prueba en la etiqueta de neo scofield2";
             timer.Enabled = true;
         }
 
