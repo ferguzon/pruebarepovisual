@@ -11,7 +11,7 @@ namespace proyectopruebarepovisual
         public string publicarMensaje()
         {
 
-            return "Este es un mensaje de prueba en la máquina de fernando";
+            return "Este es un mensaje 15:26 de fernando";
 
         }
 

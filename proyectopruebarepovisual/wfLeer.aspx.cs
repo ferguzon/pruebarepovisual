@@ -17,7 +17,7 @@ namespace proyectopruebarepovisual
         protected void btnMostrar_Click(object sender, EventArgs e)
         {
 
-            lblMostrar.Text = "Este es un mensaje de prueba en la etiqueta de fernando";
+            lblMostrar.Text = "Este es un mensaje 15:26 de fernando";
             timer.Enabled = true;
         }
 
